@@ -1,0 +1,24 @@
+GET http://localhost:8000/
+
+###
+
+POST http://127.0.0.1:8000/partner/update/
+Content-Type: application/x-www-form-urlencoded
+Authorization: Token c8d2e0b540c08497b8d974d406ad0291e610755e
+
+{
+    "shop": "Связной",
+    "categories":
+    "{
+        "id": "224",
+        "name": "Смартфоны"
+    }
+    {
+        "id": "15",
+        "name": "Аксессуары"
+    }
+    {
+        "id": "1",
+        "name": "Flash-накопители"
+    }
+}
